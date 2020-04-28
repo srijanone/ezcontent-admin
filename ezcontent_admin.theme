@@ -1,4 +1,7 @@
 <?php
+
+use Drupal\Core\Form\FormStateInterface;
+
 /**
  * @file
  * Contains ezcontent_admin.theme.
@@ -14,4 +17,11 @@ function ezcontent_admin_preprocess_page_title(&$variables) {
   if (theme_get_setting('ezcontent_admin_logo')) {
     $variables['logo_url'] = file_url_transform_relative(file_create_url(theme_get_setting('logo.url')));
   }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function ezcontent_admin_form_block_content_form_alter(&$form, FormStateInterface $form_state) {
+  $form['#attached']['library'][] = 'ezcontent_admin/block-content-form';
 }

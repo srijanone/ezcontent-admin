@@ -12,3 +12,8 @@ node-edit-form:
   css:
     theme:
       css/dist/components/node-edit-form.css: {}
+
+block-content-form:
+  css:
+    theme:
+      css/dist/components/block-content-form.css: {}
