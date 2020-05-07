@@ -1,0 +1,19 @@
+.form-type--vertical-tabs .vertical-tabs {
+  border: none;
+}
+
+.form-type--vertical-tabs .vertical-tabs__menu {
+  padding: 0;
+  margin-top: -1px;
+  border: 1px solid rgba(216, 217, 224, 0.8);
+}
+
+.form-type--vertical-tabs .vertical-tabs__menu-item {
+  margin: 0;
+  padding: 1px 0;
+}
+
+.form-type--vertical-tabs .vertical-tabs__menu-link {
+  border-top: none;
+  border-bottom: none;
+}

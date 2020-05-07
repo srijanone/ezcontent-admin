@@ -57,6 +57,11 @@ libraries-override:
       theme:
         /core/themes/stable/css/views_ui/views_ui.admin.theme.css: css/dist/theme/views_ui.admin.theme.css
 
+  core/drupal.vertical-tabs:
+    css:
+      component:
+        /core/themes/stable/css/core/vertical-tabs.css: css/dist/components/vertical-tabs.css
+
 
 regions:
   header: 'Header'
