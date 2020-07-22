@@ -36,3 +36,7 @@
 .content-header  .is-horizontal .tabs__link:hover {
   color: #0036b1;
 }
+
+.field--type-social-media .form-type--checkbox .form-item__label {
+  display: inline;
+}
