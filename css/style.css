@@ -40,3 +40,7 @@
 .field--type-social-media .form-type--checkbox .form-item__label {
   display: inline;
 }
+
+.ui-dialog .paragraphs-add-dialog--categorized.ui-widget-content.ui-dialog-content {
+  max-height: 90vh!important;
+}
