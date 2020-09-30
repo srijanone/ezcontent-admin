@@ -44,3 +44,13 @@
 .ui-dialog .paragraphs-add-dialog--categorized.ui-widget-content.ui-dialog-content {
   max-height: 90vh!important;
 }
+
+.js .paragraphs-add-dialog--categorized .paragraphs-button--icon, .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--icon {
+  background-size: contain;
+  height: 70px;
+  margin: 25px 0;
+}
+
+.js .paragraph-type-icon {
+  width: auto;
+}
