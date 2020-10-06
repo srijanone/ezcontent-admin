@@ -17,3 +17,7 @@
 .node-edit-layout {
   padding-bottom: 90px;
 }
+
+.node-edit-actions .form-actions .dropbutton-wrapper {
+  margin: 1rem 1rem 0;
+}
