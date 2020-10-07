@@ -54,3 +54,11 @@
 .js .paragraph-type-icon {
   width: auto;
 }
+
+.content-header .is-horizontal-enabled:not(.is-horizontal) .tabs__link.js-tabs-link.is-active {
+  color: #003CC5;
+}
+
+.content-header .is-horizontal-enabled:not(.is-horizontal) .tabs__link.js-tabs-link {
+  color: #545560;
+}
