@@ -1,58 +1,45 @@
 /* style for paragraph modal box */
-.paragraphs-add-dialog-list .paragraphs-add-wrapper  {
-   margin: 0 0.75em 0 0;
+.layout-region.layout-region-node-actions {
+  position: static;
+  width: 100%;
+  justify-content: flex-start;
 }
 
-.paragraphs-tabs-wrapper .form-actions {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  align-items: baseline;
+div.autocomplete-deluxe-throbber {
+  transform: translateY(50%);
 }
 
-.paragraphs-tabs-wrapper .form-actions .paragraph-type-add-modal-button {
-  margin-right: 10px;
+div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
+  background-color: transparent;
+  box-shadow: none;
 }
 
-.paragraphs-tabs-wrapper .form-actions .placeholder {
-  margin-left: 5px;
+.autocomplete-deluxe-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
-.content-header {
-  background: #202020;
+.autocomplete-deluxe-item-delete {
+  top: 8px;
 }
 
-.content-header *,
-.content-header  .breadcrumb__item,
-.content-header  .breadcrumb__link,
-.content-header .is-horizontal .tabs__link:focus,
-.content-header .tabs__link.is-active {
-  color: #fff;
+.block-help.block-help-block {
+  max-width: 100%;
 }
 
-.content-header  .is-horizontal .tabs__link.is-active::before {
-  border-color: #fff;
+.image-style-new .button {
+  margin-left: 10px;
 }
 
-.content-header  .is-horizontal .tabs__link:hover {
-  color: #0036b1;
+.action-link {
+  line-height: 1rem;
 }
 
-.field--type-social-media .form-type--checkbox .form-item__label {
-  display: inline;
-}
-
-.ui-dialog .paragraphs-add-dialog--categorized.ui-widget-content.ui-dialog-content {
-  max-height: 90vh!important;
-}
-
-.js .paragraphs-add-dialog--categorized .paragraphs-button--icon, .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--icon {
-  background-size: contain;
-  height: 70px;
-  margin: 25px 0;
-}
-
-.js .paragraph-type-icon {
-  width: auto;
+.block-system-main-block .layer-wrapper {
+  overflow-x: auto;
+  width: 100%;
 }
 
 .content-header .is-horizontal-enabled:not(.is-horizontal) .tabs__link.js-tabs-link.is-active {

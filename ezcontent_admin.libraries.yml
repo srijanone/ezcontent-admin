@@ -1,19 +1,5 @@
 framework:
   css:
     theme:
-      css/style.css: {}
+      css/style.css: { weight: 300 }
 
-page-title:
-  css:
-    theme:
-      css/dist/components/page-title.css: {}
-
-node-edit-form:
-  css:
-    theme:
-      css/dist/components/node-edit-form.css: {}
-
-block-content-form:
-  css:
-    theme:
-      css/dist/components/block-content-form.css: {}
