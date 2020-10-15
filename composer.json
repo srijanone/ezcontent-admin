@@ -7,8 +7,8 @@
     "issues": "https://github.com/srijanone/ezcontent_admin"
   },
   "require": {
-    "drupal/gin": "^3.0",
-    "drupal/gin_toolbar": "^1.0@beta"
+    "drupal/gin_toolbar": "^1.0@beta",
+    "drupal/gin": "^3.0@alpha"
   },
   "repositories": {
     "drupal": {
