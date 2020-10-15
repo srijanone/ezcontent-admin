@@ -7,7 +7,16 @@
     "issues": "https://github.com/srijanone/ezcontent_admin"
   },
   "require": {
-    "drupal/gin": "^3.0"
+    "drupal/gin": "^3.0",
+    "drupal/gin_toolbar": "^1.0@beta"
   },
-  "license": "GPL-2.0+"
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
