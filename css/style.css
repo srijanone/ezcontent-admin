@@ -10,7 +10,7 @@ div.autocomplete-deluxe-throbber {
 }
 
 div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
-  background-color: transparent;
+  background: transparent;
   box-shadow: none;
 }
 
@@ -49,3 +49,48 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 .content-header .is-horizontal-enabled:not(.is-horizontal) .tabs__link.js-tabs-link {
   color: #545560;
 }
+
+.field--name-field-content .layer-wrapper .field-multiple-table {
+  margin-bottom: 15px;
+}
+
+.field--type-social-media .form-type--checkbox .form-item__label {
+  display: inline;
+}
+
+.ui-dialog .paragraphs-add-dialog--categorized.ui-widget-content.ui-dialog-content {
+  max-height: 86vh!important;
+}
+
+.tabs-wrapper .tabs--secondary:before {
+  content: none;
+}
+
+.js .dropbutton-wrapper.open .dropbutton-widget {
+  z-index: 103;
+}
+
+.paragraphs-actions .paragraphs-previewer.button {
+  padding: calc(0.25rem - 1px) calc(0.75rem - 1px);
+  height: 1.75rem;
+  min-height: 1.75rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  font-size: 0.79rem;
+}
+
+.vertical-tabs__items .token-dialog {
+  margin-left: 24px;
+}
+
+/* .js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
+.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover {
+  background: none;
+  border-color: #a6a6a6;
+}
+
+.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover:before,
+.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover:after {
+  background: rgba(64, 182, 255, 0.8);
+} */
