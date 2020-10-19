@@ -150,3 +150,16 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   font-weight: bold;
   padding-right: 5px;
 }
+.gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .button {
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+
+.gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .form-submit {
+  margin-top: 0;
+  font-size: 1rem;
+}
+.gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .form-submit:hover {
+  background-color: #0550e6;
+  color: white;
+}
