@@ -137,6 +137,11 @@ libraries-override:
       theme:
         css/paragraphs_ee.off_canvas.css: false
 
+  gin/gin:
+    css:
+      theme:
+        dist/css/gin.css: false
+
 libraries-extend:
   ckeditor/drupal.ckeditor:
     - claro/ckeditor-editor
