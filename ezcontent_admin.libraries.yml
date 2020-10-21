@@ -1,5 +1,6 @@
 framework:
   css:
     theme:
+      css/gin.css: { weight: 299 }
       css/style.css: { weight: 300 }
 

@@ -6,7 +6,11 @@
 }
 
 div.autocomplete-deluxe-throbber {
-  transform: translateY(50%);
+  position: absolute;
+  height: auto;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
@@ -51,11 +55,23 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 }
 
 .field--name-field-content .layer-wrapper .field-multiple-table {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
+}
+
+.paragraphs-features__add-in-between__wrapper {
+  padding-bottom: 4px;
 }
 
 .field--type-social-media .form-type--checkbox .form-item__label {
   display: inline;
+}
+
+.dropbutton--single {
+  border: none;
+}
+
+.dropbutton--single .dropbutton__item--extrasmall .button {
+  line-height: 2.2rem;
 }
 
 .ui-dialog .paragraphs-add-dialog--categorized.ui-widget-content.ui-dialog-content {
@@ -82,15 +98,21 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   margin-left: 24px;
 }
 
-/* .js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
+.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
 .js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover,
 .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
 .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover {
   background: none;
-  border-color: #a6a6a6;
+  border-color: #a6a6a6 !important;
 }
 
-.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover:before,
-.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover:after {
-  background: rgba(64, 182, 255, 0.8);
-} */
+.js .paragraphs-add-dialog--categorized .paragraphs-button--icon,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--icon {
+  background-size: contain;
+  height: 60px;
+  margin: 25px 0 35px;
+}
+
+.js .paragraphs-add-dialog--categorized.paragraphs-style-list .paragraphs-add-dialog-row button {
+  max-width: 100%;
+}
