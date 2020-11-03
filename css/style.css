@@ -116,3 +116,13 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 .js .paragraphs-add-dialog--categorized.paragraphs-style-list .paragraphs-add-dialog-row button {
   max-width: 100%;
 }
+
+.paragraphs-tabs-wrapper .field--name-field-social-media table th {
+  border-radius: 0;
+}
+.field--name-field-social-media .ief-entity-table .ief-row-form {
+  border: none;
+}
+.field--name-field-social-media  .ief-form>.form-wrapper>.form-wrapper:last-of-type {
+  margin: 0;
+}
