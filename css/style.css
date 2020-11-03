@@ -62,3 +62,13 @@
 .content-header .is-horizontal-enabled:not(.is-horizontal) .tabs__link.js-tabs-link {
   color: #545560;
 }
+
+.paragraphs-tabs-wrapper .field--name-field-social-media table th {
+  border-radius: 0;
+}
+.field--name-field-social-media .ief-entity-table .ief-row-form {
+  border: none;
+}
+.field--name-field-social-media  .ief-form>.form-wrapper>.form-wrapper:last-of-type {
+  margin: 0;
+}
