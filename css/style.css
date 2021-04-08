@@ -168,6 +168,30 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   top: 20px;
 }
 
-.layout-region-node-actions {
+.gin-sidebar .form-actions .save-edit .button:hover {
+  background-color: #0e716c;
+}
+
+.page-node-type-article .layout-region-node-actions {
   margin-right: 150px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gin-sidebar .form-actions .save-edit {
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .page-node-type-article .layout-region-node-actions {
+    margin-bottom: 60px;
+    display: block;
+  }
+
+  .layout-region-node-actions .form-actions {
+    display: block;
+  }
+
+  .layout-region-node-actions .form-actions input {
+    display: block;
+  }
 }
