@@ -195,3 +195,65 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
     display: block;
   }
 }
+.layout-region-node-actions {
+  margin-right: 150px;
+}
+
+/* article node */
+#snippet_preview {
+  width: auto;
+}
+@media screen and (max-width: 768px) {
+  .gin--edit-form .page-wrapper__node-edit-form .block-page-title-block .page-title {
+    width: calc(100%);
+  }
+  .snippet_container .title {
+    width: 100%;
+  }
+  .form-item {
+    margin: 0.8em 0;
+  }
+  .js .paragraphs_ee__add-in-between__wrapper {
+    position: relative;
+    left: inherit;
+    right: inherit;
+    top: 10px;
+    display: block;
+    transform: none;
+  } 
+  .js .paragraphs_ee__add-in-between__wrapper .paragraphs_ee__add-in-between__button {
+    font-size: 13px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    float: none;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    padding: 7px;
+  }
+  input.paragraphs_ee__add-in-between__button.paragraphs_ee__modal__button.paragraphs-features__add-in-between__button.button--small.js-show.button.js-form-submit.form-submit.last {
+    padding: 7px;
+    border-radius: 4px;
+  }
+  .js .paragraphs_ee__add-in-between__wrapper .paragraphs_ee__add-in-between__button.first,
+  .js .paragraphs_ee__add-in-between__wrapper .paragraphs_ee__add-in-between__button.first:before {
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .js .field--widget-paragraphs .draggable .tabledrag-handle {
+    min-width: initial;
+    margin-left: 0;
+  }
+  .ui-dialog:not(.ui-dialog-off-canvas) {
+    max-width: none;
+    width: 90%!important;
+    margin: 0 auto;
+  }
+  .paragraphs-tabs-wrapper .field-multiple-table .draggable td {
+    padding: 7px 0 ;
+  }
+  .js .paragraphs-add-dialog--categorized.paragraphs-style-list .paragraphs-add-dialog-row{
+    width: 100%;
+  }
+}
+
+/* article node  end*/
