@@ -137,10 +137,10 @@ libraries-override:
       theme:
         css/paragraphs_ee.off_canvas.css: false
 
-  gin/gin:
+  #   we used the gin.css in ezcontent_admin theme for style the our theme, but every-time when gin theme will be updated the version, we have to replace the gin.css by update one in our admin theme. but we have remove it and link with gin theme css file. (if when gin theme will be updated in the future we, don't need to replace in admin theme, it will updated self ) #
+  gin/dist: 
     css:
-      theme:
-        dist/css/gin.css: false
+      gin.css: false
 
 libraries-extend:
   ckeditor/drupal.ckeditor:
