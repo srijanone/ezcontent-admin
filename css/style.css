@@ -23,16 +23,8 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   top: 8px;
 }
 
-.block-help.block-help-block {
-  max-width: 100%;
-}
-
 .image-style-new .button {
   margin-left: 10px;
-}
-
-.action-link {
-  line-height: 1rem;
 }
 
 .block-system-main-block .layer-wrapper {
@@ -44,40 +36,24 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   color: #003CC5;
 }
 
-.content-header .is-horizontal-enabled:not(.is-horizontal) .tabs__link.js-tabs-link {
-  color: #545560;
-}
-
 .field--name-field-content .layer-wrapper .field-multiple-table {
   margin-bottom: 16px;
 }
 
 .paragraphs-features__add-in-between__wrapper {
-  padding-bottom: 4px;
+  padding-bottom: 7px;
 }
 
 .field--type-social-media .form-type--checkbox .form-item__label {
   display: inline;
 }
 
-.dropbutton--single {
+.dropbutton.dropbutton--single {
   border: none;
-}
-
-.dropbutton--single .dropbutton__item--extrasmall .button {
-  line-height: 2.2rem;
-}
-
-.ui-dialog .paragraphs-add-dialog--categorized.ui-widget-content.ui-dialog-content {
-  max-height: 86vh!important;
 }
 
 .tabs-wrapper .tabs--secondary:before {
   content: none;
-}
-
-.js .dropbutton-wrapper.open .dropbutton-widget {
-  z-index: 103;
 }
 
 .paragraphs-actions .paragraphs-previewer.button {
@@ -88,16 +64,11 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   font-size: 0.79rem;
 }
 
-.vertical-tabs__items .token-dialog {
-  margin-left: 24px;
-}
-
 .js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
 .js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover,
 .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
 .ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover {
   background: none;
-  border-color: #a6a6a6 !important;
 }
 
 .js .paragraphs-add-dialog--categorized .paragraphs-button--icon,
@@ -111,25 +82,11 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   max-width: 100%;
 }
 
-.paragraphs-tabs-wrapper .field--name-field-social-media table th {
-  border-radius: 0;
-}
 .field--name-field-social-media .ief-entity-table .ief-row-form {
   border: none;
 }
 .field--name-field-social-media  .ief-form>.form-wrapper>.form-wrapper:last-of-type {
   margin: 0;
-}
-
-.field--name-created .form-items-inline > .form-item,
-.field--name-publish-on .form-items-inline > .form-item,
-.field--name-unpublish-on .form-items-inline > .form-item {
-  display: block;
-}
-.field--name-created .form-items-inline .form-element,
-.field--name-publish-on .form-items-inline .form-element,
-.field--name-unpublish-on .form-items-inline .form-element {
-  width: 100%;
 }
 
 .field--name-field-premium {
@@ -150,40 +107,23 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 }
 
 .gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .form-submit {
-  margin-top: 0;
   font-size: 1rem;
   max-height: 48px;
 }
-.gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .form-submit:hover {
-  background-color: #0550e6;
-  color: white;
-}
+
 .gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .save-edit .button:hover {
   background-color: #0e716c;
+  color: white;
 }
 
-.page-node-type-article .layout-region-node-actions {
-  margin-right: 150px;
+.dropbutton.dropbutton--single .dropbutton__item--extrasmall .button {
+  line-height: 2.2rem;
+  margin: 0px;
 }
 
-
-@media screen and (max-width: 1024px) {
-  .page-node-type-article .layout-region-node-actions {
-    margin-bottom: 60px;
-    display: block;
-  }
-
-  .layout-region-node-actions .form-actions {
-    display: block;
-  }
-
-  .layout-region-node-actions .form-actions input {
-    display: block;
-  }
-}
-
-.layout-region-node-actions {
-  margin-right: 150px;
+/* in add paragraph content model box , we have to show three category button in a row. for do that this code implement, same line of code used in gin theme, so our css was not implemented here and no parent class is available for that. that's way !important is used here*/ 
+.js .paragraphs-add-dialog--categorized .paragraphs-add-dialog-row button {
+    max-width: 212px!important;
 }
 
 /* article node */
@@ -193,12 +133,6 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 @media screen and (max-width: 768px) {
   .breadcrumb-wrapper {
     white-space: inherit;
-  }
-  .gin-sticky.js-form-wrapper.form-wrapper .form-actions{
-    margin-top: 10px;
-  }
-  .gin--edit-form .page-wrapper__node-edit-form .block-page-title-block .page-title {
-    width: calc(100%);
   }
   .snippet_container .title {
     width: 100%;
@@ -244,7 +178,7 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   .paragraphs-tabs-wrapper .field-multiple-table .draggable td {
     padding: 7px 0 ;
   }
-  .js .paragraphs-add-dialog--categorized.paragraphs-style-list .paragraphs-add-dialog-row{
+  .js .paragraphs-add-dialog--categorized.paragraphs-style-list .paragraphs-add-dialog-row {
     width: 100%;
   }
 }
