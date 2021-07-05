@@ -19,7 +19,8 @@
   "extra": {
     "patches": {
       "drupal/gin": {
-        "3219236 - layout width issue in responsiveness on mobile/small device": "https://www.drupal.org/files/issues/2021-06-17/layout-width-issue-responsiveness-mobile-3219236-4.patch"
+        "3219236 - layout width issue in responsiveness on mobile/small device": "https://www.drupal.org/files/issues/2021-06-17/layout-width-issue-responsiveness-mobile-3219236-4.patch",
+        "3222083 - Actions buttons for media overlap in the theme": "https://www.drupal.org/files/issues/2021-07-05/Action-buttons-for-media-overlap-theme-3222083-2.patch"
       }
     }
   },
