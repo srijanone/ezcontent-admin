@@ -16,13 +16,6 @@
       "url": "https://packages.drupal.org/8"
     }
   },
-  "extra": {
-    "patches": {
-      "drupal/gin": {
-        "3219236 - layout width issue in responsiveness on mobile/small device": "https://www.drupal.org/files/issues/2021-06-17/layout-width-issue-responsiveness-mobile-3219236-4.patch"
-      }
-    }
-  },
   "license": "GPL-2.0+",
   "minimum-stability": "dev",
   "prefer-stable": true
