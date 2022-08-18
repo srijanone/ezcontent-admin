@@ -35,13 +35,6 @@ libraries-override:
     js:
       misc/tabledrag.js: /core/themes/claro/js/tabledrag.js
 
-  core/drupal.vertical-tabs:
-    css:
-      component:
-        /core/themes/stable/css/core/vertical-tabs.css: false
-    js:
-      misc/vertical-tabs.js: /core/themes/claro/js/vertical-tabs.js
-
   core/jquery.ui:
     css:
       theme:
@@ -152,8 +145,6 @@ libraries-extend:
     - claro/messages
   core/drupal.progress:
     - claro/progress
-  core/drupal.vertical-tabs:
-    - claro/vertical-tabs
   core/jquery.ui:
     - claro/claro.jquery.ui
   file/drupal.file:
