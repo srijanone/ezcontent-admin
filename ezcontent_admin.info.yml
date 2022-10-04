@@ -30,7 +30,7 @@ libraries-override:
     css:
       component:
         /core/themes/stable/css/core/dropbutton/dropbutton.css: /core/themes/claro/css/components/dropbutton.css
-
+  
   core/jquery.ui:
     css:
       theme:
