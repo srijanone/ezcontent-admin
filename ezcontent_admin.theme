@@ -18,7 +18,7 @@ function ezcontent_admin_preprocess_page(&$variables) {
  */
 function ezcontent_admin_css_alter(&$css, $assets) {
   // UPDATE THIS PATH TO YOUR MODULE'S CSS PATH.
-  $path = drupal_get_path('theme', 'ezcontent_admin') . '/css/style.css';
+  $path = \Drupal::service('extension.list.theme')->getPath('ezcontent_admin') . '/css/style.css';
 
   if (isset($css[$path])) {
     // Use anything greater than 100 to have it load after the theme

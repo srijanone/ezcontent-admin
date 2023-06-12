@@ -4,7 +4,7 @@ base theme: gin
 name: 'Ezcontent Admin Theme'
 description: 'A clean, accessible, and powerful drupal Administration theme(Base Theme Gin).'
 package: 'Gin'
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^8.8 || ^9 || ^10
 
 libraries:
   - claro/global-styling
@@ -127,8 +127,8 @@ libraries-override:
 libraries-extend:
   ckeditor/drupal.ckeditor:
     - claro/ckeditor-editor
-  core/ckeditor:
-    - claro/ckeditor-dialog
+#   core/ckeditor:
+#     - claro/ckeditor-dialog
   core/drupal.collapse:
     - claro/details-focus
   core/drupal.dialog:
