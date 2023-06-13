@@ -125,10 +125,10 @@ libraries-override:
         css/paragraphs_ee.off_canvas.css: false
 
 libraries-extend:
-  ckeditor/drupal.ckeditor:
-    - claro/ckeditor-editor
-#   core/ckeditor:
-#     - claro/ckeditor-dialog
+  # ckeditor/drupal.ckeditor:
+  #   - claro/ckeditor-editor
+  # core/ckeditor:
+  #   - claro/ckeditor-dialog
   core/drupal.collapse:
     - claro/details-focus
   core/drupal.dialog:
