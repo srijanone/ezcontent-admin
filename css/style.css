@@ -32,8 +32,10 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   width: 100%;
 }
 
-.content-header .is-horizontal-enabled:not(.is-horizontal) .tabs__link.js-tabs-link.is-active {
-  color: #003CC5;
+.content-header
+  .is-horizontal-enabled:not(.is-horizontal)
+  .tabs__link.js-tabs-link.is-active {
+  color: #003cc5;
 }
 
 .field--name-field-content .layer-wrapper .field-multiple-table {
@@ -65,27 +67,44 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 }
 
 .js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
-.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover,
-.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
-.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--add-more:not(:focus):hover {
+.js
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--add-more:not(:focus):hover,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
+  #drupal-off-canvas
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--add-more:hover,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
+  #drupal-off-canvas
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--add-more:not(:focus):hover {
   background: none;
 }
 
 .js .paragraphs-add-dialog--categorized .paragraphs-button--icon,
-.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser #drupal-off-canvas .paragraphs-add-dialog--categorized .paragraphs-button--icon {
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
+  #drupal-off-canvas
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--icon {
   background-size: contain;
   height: 60px;
   margin: 25px 0 35px;
 }
 
-.js .paragraphs-add-dialog--categorized.paragraphs-style-list .paragraphs-add-dialog-row button {
+.js
+  .paragraphs-add-dialog--categorized.paragraphs-style-list
+  .paragraphs-add-dialog-row
+  button {
   max-width: 100%;
 }
 
 .field--name-field-social-media .ief-entity-table .ief-row-form {
   border: none;
 }
-.field--name-field-social-media  .ief-form>.form-wrapper>.form-wrapper:last-of-type {
+.field--name-field-social-media
+  .ief-form
+  > .form-wrapper
+  > .form-wrapper:last-of-type {
   margin: 0;
 }
 
@@ -95,23 +114,39 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
 .field--name-field-premium .form-item {
   display: flex;
   flex-direction: row-reverse;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 .field--name-field-premium .form-item__label {
   font-weight: bold;
   padding-right: 5px;
 }
-.gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .button {
-  margin-bottom: .5rem;
-  margin-top: .5rem;
+.gin--edit-form
+  .page-wrapper__node-edit-form
+  .layout-region-node-secondary
+  .gin-sidebar
+  .form-actions
+  .button {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-.gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .form-submit {
+.gin--edit-form
+  .page-wrapper__node-edit-form
+  .layout-region-node-secondary
+  .gin-sidebar
+  .form-actions
+  .form-submit {
   font-size: 1rem;
   max-height: 48px;
 }
 
-.gin--edit-form .page-wrapper__node-edit-form .layout-region-node-secondary .gin-sidebar .form-actions .save-edit .button:hover {
+.gin--edit-form
+  .page-wrapper__node-edit-form
+  .layout-region-node-secondary
+  .gin-sidebar
+  .form-actions
+  .save-edit
+  .button:hover {
   background-color: #0e716c;
   color: white;
 }
@@ -121,9 +156,9 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   margin: 0px;
 }
 
-/* in add paragraph content model box , we have to show three category button in a row. for do that this code implement, same line of code used in gin theme, so our css was not implemented here and no parent class is available for that. that's way !important is used here*/ 
+/* in add paragraph content model box , we have to show three category button in a row. for do that this code implement, same line of code used in gin theme, so our css was not implemented here and no parent class is available for that. that's way !important is used here*/
 .js .paragraphs-add-dialog--categorized .paragraphs-add-dialog-row button {
-    max-width: 212px!important;
+  max-width: 212px !important;
 }
 
 .gin-entity-browser .entity-browser-form .view-content {
@@ -151,8 +186,10 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
     top: 10px;
     display: block;
     transform: none;
-  } 
-  .js .paragraphs_ee__add-in-between__wrapper .paragraphs_ee__add-in-between__button {
+  }
+  .js
+    .paragraphs_ee__add-in-between__wrapper
+    .paragraphs_ee__add-in-between__button {
     font-size: 13px;
     border: 1px solid #a6a6a6;
     border-radius: 4px;
@@ -165,8 +202,12 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
     padding: 7px;
     border-radius: 4px;
   }
-  .js .paragraphs_ee__add-in-between__wrapper .paragraphs_ee__add-in-between__button.first,
-  .js .paragraphs_ee__add-in-between__wrapper .paragraphs_ee__add-in-between__button.first:before {
+  .js
+    .paragraphs_ee__add-in-between__wrapper
+    .paragraphs_ee__add-in-between__button.first,
+  .js
+    .paragraphs_ee__add-in-between__wrapper
+    .paragraphs_ee__add-in-between__button.first:before {
     border-bottom-left-radius: 4px;
     border-top-left-radius: 4px;
   }
@@ -176,13 +217,15 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   }
   .ui-dialog:not(.ui-dialog-off-canvas) {
     max-width: none;
-    width: 90%!important;
+    width: 90% !important;
     margin: 0 auto;
   }
   .paragraphs-tabs-wrapper .field-multiple-table .draggable td {
-    padding: 7px 0 ;
+    padding: 7px 0;
   }
-  .js .paragraphs-add-dialog--categorized.paragraphs-style-list .paragraphs-add-dialog-row {
+  .js
+    .paragraphs-add-dialog--categorized.paragraphs-style-list
+    .paragraphs-add-dialog-row {
     width: 100%;
   }
   .redirect-table__path {
@@ -194,3 +237,515 @@ div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
   }
 }
 /* article node  end*/
+/* style for paragraph modal box */
+div.autocomplete-deluxe-throbber {
+  position: absolute;
+  height: auto;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
+  background: transparent;
+  box-shadow: none;
+}
+
+.autocomplete-deluxe-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.autocomplete-deluxe-item-delete {
+  top: 8px;
+}
+
+.image-style-new .button {
+  margin-left: 10px;
+}
+
+.block-system-main-block .layer-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.content-header
+  .is-horizontal-enabled:not(.is-horizontal)
+  .tabs__link.js-tabs-link.is-active {
+  color: #003cc5;
+}
+
+.field--name-field-content .layer-wrapper .field-multiple-table {
+  margin-bottom: 16px;
+}
+
+.paragraphs-features__add-in-between__wrapper {
+  padding-bottom: 7px;
+}
+
+.field--type-social-media .form-type--checkbox .form-item__label {
+  display: inline;
+}
+
+.dropbutton.dropbutton--single {
+  border: none;
+}
+
+.tabs-wrapper .tabs--secondary:before {
+  content: none;
+}
+
+.paragraphs-actions .paragraphs-previewer.button {
+  padding: calc(0.25rem - 1px) calc(0.75rem - 1px);
+  height: 1.75rem;
+  min-height: 1.75rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  font-size: 0.79rem;
+}
+
+.js .paragraphs-add-dialog--categorized .paragraphs-button--add-more:hover,
+.js
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--add-more:not(:focus):hover,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
+  #drupal-off-canvas
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--add-more:hover,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
+  #drupal-off-canvas
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--add-more:not(:focus):hover {
+  background: none;
+}
+
+.js .paragraphs-add-dialog--categorized .paragraphs-button--icon,
+.ui-dialog.ui-dialog-off-canvas.paragraphs-ee-off-canvas--browser
+  #drupal-off-canvas
+  .paragraphs-add-dialog--categorized
+  .paragraphs-button--icon {
+  background-size: contain;
+  height: 60px;
+  margin: 25px 0 35px;
+}
+
+.js
+  .paragraphs-add-dialog--categorized.paragraphs-style-list
+  .paragraphs-add-dialog-row
+  button {
+  max-width: 100%;
+}
+
+.field--name-field-social-media .ief-entity-table .ief-row-form {
+  border: none;
+}
+.field--name-field-social-media
+  .ief-form
+  > .form-wrapper
+  > .form-wrapper:last-of-type {
+  margin: 0;
+}
+
+.field--name-field-premium {
+  display: flex;
+}
+.field--name-field-premium .form-item {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0.5rem 0;
+}
+.field--name-field-premium .form-item__label {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.gin--edit-form
+  .page-wrapper__node-edit-form
+  .layout-region-node-secondary
+  .gin-sidebar
+  .form-actions
+  .button {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.gin--edit-form
+  .page-wrapper__node-edit-form
+  .layout-region-node-secondary
+  .gin-sidebar
+  .form-actions
+  .form-submit {
+  font-size: 1rem;
+  max-height: 48px;
+}
+
+.gin--edit-form
+  .page-wrapper__node-edit-form
+  .layout-region-node-secondary
+  .gin-sidebar
+  .form-actions
+  .save-edit
+  .button:hover {
+  background-color: #0e716c;
+  color: white;
+}
+
+.dropbutton.dropbutton--single .dropbutton__item--extrasmall .button {
+  line-height: 2.2rem;
+  margin: 0px;
+}
+
+/* in add paragraph content model box , we have to show three category button in a row. for do that this code implement, same line of code used in gin theme, so our css was not implemented here and no parent class is available for that. that's way !important is used here*/
+.js .paragraphs-add-dialog--categorized .paragraphs-add-dialog-row button {
+  max-width: 212px !important;
+}
+
+.gin-entity-browser .entity-browser-form .view-content {
+  display: block;
+}
+
+/* article node */
+#snippet_preview {
+  width: auto;
+}
+@media screen and (max-width: 768px) {
+  .breadcrumb-wrapper {
+    white-space: inherit;
+  }
+  .snippet_container .title {
+    width: 100%;
+  }
+  .form-item {
+    margin: 0.8em 0;
+  }
+  .js .paragraphs_ee__add-in-between__wrapper {
+    position: relative;
+    left: inherit;
+    right: inherit;
+    top: 10px;
+    display: block;
+    transform: none;
+  }
+  .js
+    .paragraphs_ee__add-in-between__wrapper
+    .paragraphs_ee__add-in-between__button {
+    font-size: 13px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    float: none;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    padding: 7px;
+  }
+  input.paragraphs_ee__add-in-between__button.paragraphs_ee__modal__button.paragraphs-features__add-in-between__button.button--small.js-show.button.js-form-submit.form-submit.last {
+    padding: 7px;
+    border-radius: 4px;
+  }
+  .js
+    .paragraphs_ee__add-in-between__wrapper
+    .paragraphs_ee__add-in-between__button.first,
+  .js
+    .paragraphs_ee__add-in-between__wrapper
+    .paragraphs_ee__add-in-between__button.first:before {
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .js .field--widget-paragraphs .draggable .tabledrag-handle {
+    min-width: initial;
+    margin-left: 0;
+  }
+  .ui-dialog:not(.ui-dialog-off-canvas) {
+    max-width: none;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .paragraphs-tabs-wrapper .field-multiple-table .draggable td {
+    padding: 7px 0;
+  }
+  .js
+    .paragraphs-add-dialog--categorized.paragraphs-style-list
+    .paragraphs-add-dialog-row {
+    width: 100%;
+  }
+  .redirect-table__path {
+    width: 19%;
+    padding-right: 0;
+  }
+  .dropbutton.dropbutton--single .dropbutton__item--extrasmall .button {
+    line-height: normal;
+  }
+}
+/* article node  end*/
+
+/*===============================*/
+
+/*===============================*/
+
+/* hide ajax throbber for media popup  */
+.ui-dialog.entity-browser-modal .ajax-progress-throbber {
+  z-index: 99999999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  position: absolute;
+  display: none;
+}
+
+/* layout builder configure block button sticky fix */
+
+.ui-dialog-position-side #drupal-off-canvas .paragraphs-actions {
+  position: static;
+  right: 0;
+  top: 10px;
+}
+
+.node--type-landing-page .ui-dialog .ui-widget-content.ui-dialog-content {
+  height: auto !important;
+}
+.ui-dialog table tbody tr.paragraph-type--card .form-wrapper .form-wrapper,
+.js .paragraph-top {
+  position: relative;
+}
+
+.paragraphs-tabs-wrapper table .form-wrapper {
+  padding: 5px;
+}
+
+.layout--threecol-section
+  .slick__slide
+  .hero-media-component
+  .hero-banner-body {
+  padding: 10px;
+}
+
+/* hide empty anchor tag to hero-media-component */
+.hero-banner-btn-wrapper a:not(:has(*)) {
+  padding: 0 !important;
+}
+
+/* admin toolbar overlapping */
+
+.toolbar-tray-open.toolbar-horizontal .navbar .container > div {
+  width: 100%;
+}
+
+/* five column layout css */
+
+.layout--fivecol-section
+  .layout__region
+  .field--name-field-article
+  .field__item {
+  max-width: 100%;
+}
+
+.layout__region--third
+  .block-inline-blockreferenced-cards
+  .referenced-card
+  .field__item
+  .field--type-image {
+  height: auto;
+}
+
+.layout--fivecol-section .layout__region--fourth .block-social-sharing-block {
+  padding: 0 10px;
+}
+
+.layout--fivecol-section
+  .layout__region--fourth
+  .block-social-sharing-block
+  .social-media-sharing
+  ul
+  li {
+  margin: 0 5px;
+}
+
+.layout--fivecol-section .layout__region--fourth h2.block-title {
+  padding: 0;
+}
+
+.layout--fivecol-section .layout__region--fifth .field--name-body h2 {
+  color: black;
+}
+
+.layout--sixcol-section .layout__region section.embed-block .w-100.mb-3.mt-3 {
+  margin-top: 0 !important;
+}
+
+.layout--sixcol-section .layout__region .hero-media-component {
+  margin-top: 0 !important;
+}
+
+.layout--sixcol-section
+  .layout__region
+  .hero-media-component
+  .hero-banner-wrapper
+  img {
+  object-fit: cover;
+}
+
+.layout--sixcol-section
+  .layout__region
+  .hero-media-component
+  .hero-banner-wrapper
+  .hero-banner-body {
+  left: 0;
+  padding: 5px;
+}
+
+.layout--sixcol-section .layout__region {
+  padding: 0 5px;
+}
+
+/* if layout has nothing this block will be hidden */
+
+.layout__region:not(:has(*)),
+div:not(:has(*)) {
+  display: none !important;
+}
+
+/* map block */
+
+.block--type-map-block {
+  opacity: 1;
+}
+
+/* media button ui  */
+
+.field--name-field-media .remove-button,
+.field--name-field-media .edit-button {
+  width: auto;
+  margin-top: 20px;
+}
+
+/* Hero banner text height set */
+
+.hero-banner-text-desc {
+  max-height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* alert msg bg color */
+.alert-danger {
+  background-color: white !important;
+}
+
+/* alert msg position */
+.alert-dismissible {
+  position: absolute;
+  right: 0;
+  width: 360px;
+}
+
+/* Map opacity disable */
+.block--type-map-block {
+  opacity: 1 !important;
+}
+
+/* Animation field list style change */
+.field--name-animation details summary[aria-expanded='true'] {
+  list-style-type: disclosure-open !important;
+}
+.field--name-animation details summary[aria-expanded='false'] {
+  list-style-type: disclosure-closed !important;
+}
+
+/* ui image media */
+#drupal-off-canvas .field--name-field-media details {
+  padding: 0;
+}
+
+#drupal-off-canvas .field--name-field-media details summary {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.ui-dialog-position-side #drupal-off-canvas table {
+  margin-bottom: 20px;
+}
+
+/* alert msg bg color */
+.alert-danger {
+  background-color: white !important;
+}
+
+/* Map opacity disable */
+.block--type-map-block {
+  opacity: 1 !important;
+}
+
+/* layout bulder column */
+
+.layout__region--third
+  .block-inline-blockreferenced-cards
+  .referenced-card
+  .field__item {
+  max-width: 100%;
+}
+
+/* ui image height issue  */
+
+.card-media .layout .layout--region .field--name-field-media-image img {
+  height: 100% !important;
+}
+
+/* hero banner text and button */
+
+.hero-banner-btn-wrapper a {
+  padding: 8px 15px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.hero-banner-body,
+.hero_banner-body {
+  cursor: auto;
+}
+
+/* card block grid layout fix */
+.card-media .layout .layout--region .card-text-content {
+  padding: 0 10px;
+}
+
+.card-media .layout .layout--region {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-media .layout .layout--region .card-text-content .field--name-field-title,
+.card-media
+  .layout
+  .layout--region
+  .card-text-content
+  .field--name-field-short-title {
+  color: black;
+}
+
+.card-media
+  .layout
+  .layout--region
+  .card-text-content
+  .field--name-field-summary {
+  margin-bottom: 0;
+}
+
+.block-inline-blockcards {
+  opacity: 1 !important;
+}
+
+section.block {
+  opacity: 1 !important;
+}
+
+/* added this class in layout bulder style 'maxWidth-50' */
+.maxWidth-50 .layout__region {
+  max-width: 50%;
+}
+
+.node--type-landing-page .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  display: flex;
+}
