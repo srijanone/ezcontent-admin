@@ -511,3 +511,94 @@ section.block {
 .node--type-landing-page .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
   display: flex;
 }
+
+/* Image Banner */
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  th
+  h4.label {
+  display: inline-block !important;
+}
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--name-field-image
+  .form-wrapper
+  summary {
+  margin-bottom: 10px !important;
+}
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--name-field-image
+  .form-wrapper
+  .entity-type--media
+  > .form-wrapper {
+  margin: 0 !important;
+}
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--name-field-image
+  .form-wrapper
+  .entity-type--media
+  > .form-wrapper
+  img {
+  width: 250px !important;
+  margin-bottom: 20px !important;
+}
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--type-text-long
+  .form-item {
+  padding-bottom: 0 !important;
+}
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--type-text-long
+  .form-item
+  label {
+  margin-bottom: 10px !important;
+  display: block !important;
+}
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--name-field-text-alignment
+  .form-item
+  label,
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--name-field-screen-size
+  .form-item
+  label {
+  margin-bottom: 10px !important;
+  display: block !important;
+}
+
+.layout-builder-configure-block
+  .form-wrapper[data-drupal-selector='edit-settings-block-form']
+  .field-multiple-table
+  tbody
+  .field--name-field-animate
+  .description {
+  margin-bottom: 10px !important;
+}
